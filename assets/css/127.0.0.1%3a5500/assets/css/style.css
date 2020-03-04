@@ -1,0 +1,192 @@
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header__wrapper {
+  background: url("../images/background.png") no-repeat;
+  position: relative;
+  left: calc(50% - 1609px / 2);
+  height: 1631px;
+  width: 1920px;
+}
+
+.header__wrapper hr {
+  max-width: 1605px;
+  background-color: #ffffff;
+  opacity: 0.22;
+  position: relative;
+  top: -60px;
+  left: -164px;
+}
+
+.header__menu > ul > li {
+  display: inline;
+}
+
+.header__menu > ul {
+  margin-left: 304px;
+  position: relative;
+  top: 39px;
+  left: 50px;
+}
+
+.header__menu > ul > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.header__logo {
+  position: absolute;
+  left: 205px;
+  top: -38px;
+}
+
+.header__menu > ul > li:nth-child(2) {
+  position: relative;
+  top: -22px;
+  left: 81px;
+}
+
+.header__menu > ul > li:nth-child(3) {
+  position: relative;
+  top: -44px;
+  left: 161px;
+}
+
+.header__menu > ul > li:nth-child(4) {
+  position: relative;
+  top: -66px;
+  left: 241px;
+}
+
+.header__menu > ul > li:nth-child(5) {
+  position: relative;
+  top: -88px;
+  left: 321px;
+}
+
+.header__menu > ul > li:nth-child(6) {
+  position: relative;
+  top: -110px;
+  left: 401px;
+}
+
+.header__menu > ul > li:nth-child(4) > a::after {
+  position: relative;
+  left: 10px;
+}
+
+.header__menu > ul > li:nth-child(5) > a {
+  position: relative;
+  left: 5px;
+}
+
+.header__menu > ul > li:nth-child(6) > a::after {
+  position: relative;
+  left: 15px;
+}
+
+.header__menu > ul > li:nth-child(6) > a {
+  position: relative;
+  left: 0px;
+}
+
+.header__menu > ul > li > a::after {
+  background-color: goldenrod;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 2px;
+  position: relative;
+  left: 6px;
+  top: 41px;
+  z-index: 2;
+  opacity: 1;
+  visibility: hidden;
+}
+
+.header__menu > ul > li > a:hover:after {
+  background-color: #fcdb5a;
+  visibility: visible;
+}
+
+.header__menu > ul > li > .menu__active::after {
+  visibility: visible;
+}
+
+.header__button {
+  width: 153px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #ffffff;
+  position: relative;
+  left: 64%;
+  top: -142px;
+  cursor: pointer;
+}
+
+.header__button > p {
+  text-align: center;
+  color: #1b1b1b;
+  font-family: Raleway;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.main__text{
+  color: #ffffff;
+  font-family: 'Storytella';
+  font-size: 200px;
+  font-weight: 400;
+  line-height: 200px;
+  position: relative;
+  left: 10.5%;
+  top: 41px;
+  width: 500px;
+}
+
+.header__image1{
+  background: url('../images/header__img1.jpg')no-repeat;
+  width: 380px;
+  height: 679px;
+}
+
+.header__image2{
+  background: url('../images/header__img2.png')no-repeat;
+  width: 500px;
+  height: 310px;
+  position: relative;
+  top: -400px;
+  left: 2;
+}
+
+.header__image3{
+  background: url('../images/header__img3.png')no-repeat;
+  width: 500px;
+  height: 310px;
+  position: relative;
+  top: -400px;
+}
+
+.header__image4{
+  background: url('../images/header__img4.png')no-repeat;
+  width: 616px;
+  height: 369px;
+  position: relative;
+  top: -600px;
+}
+
